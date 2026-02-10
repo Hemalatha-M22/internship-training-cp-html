@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -6,31 +7,53 @@
         <meta name="keywords" content="html,Basics of WebApp">
         <meta name="description" content="My Website for Learning">
         <title>Learn HTML | Campuspe </title>
+         <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+         </style>
     </head>
+    
     <body>
-        <center>
-        <table border="1">
-            <caption>Table of Content</caption>
-            <thead>
-                <tr>
-                    <th>Si </th>
-                    <th>Content Name</th>
-                    <th>Page Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Basics of HTML</td>
-                    <td><a href="basics.html">Link</a></td>
-                </tr>
-                <tr>let
-                    <td>2</td>
-                    <td>HTML Forms</td>
-                    <td><a href="forms.html">Link</a></td>
-                </tr>
-            </tbody>
-        </table>
-        </center>
+         <table>
+        <caption><strong>Table of Contents</strong></caption>
+
+        <thead>
+            <tr>
+                <th>Sl No</th>
+                <th>Content Name</th>
+                <th>Page Link</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Basics of HTML</td>
+                <td><a href="basics.html">Open</a></td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>HTML Forms</td>
+                <td><a href="forms.html">Open</a></td>
+            </tr>
+        </tbody>
+         </table>
     </body>
 </html>
